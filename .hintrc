@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "disown-opener": "off",
+    "axe/aria": [
+      "default",
+      {
+        "aria-valid-attr": "off"
+      }
+    ],
+    "axe/name-role-value": "off"
+  }
+}
