@@ -51,7 +51,7 @@
   >
     <!-- ==== Header ==== -->
     <header class="sticky-top">
-      <nav class="navbar navbar-expand-lg navbar-light py-3" id="header">
+      <nav class="navbar navbar-expand-lg navbar-light py-3 sticky-top" id="header">
         <div class="container">
           <a class="navbar-brand" href="/">
             <img src="./img/logo.svg" alt="logo" />
@@ -84,14 +84,14 @@
                 <a href="#about" class="nav-link">About</a>
               </li>
               <li class="nav-item">
-                <a href="#portfolio" class="nav-link">Projects</a>
+                <a href="#portfolio" class="nav-link">Experience</a>
               </li>
               <li class="nav-item">
                 <a href="#contact" class="nav-link">Contact</a>
               </li>
               <li class="nav-item">
                 <a
-                  href="https://blog.ahmedzougari.com"
+                  href="#"
                   target="_blank"
                   class="nav-link"
                   >Blog</a
@@ -109,33 +109,33 @@
       <div id="hero">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-lg-6 mt-lg-0 d-grid align-content-center">
+            <div class="col-12 col-lg-6 mt-lg-0 mt-4 d-grid align-content-center">
               <section
                 class="text-center text-lg-start"
                 data-aos="zoom-in"
                 data-aos-delay="1000"
                 data-aos-duration="1000"
               >
-                <p>Hello! 👋 My name is</p>
+                <p>Hello! 👋 I am</p>
                 <h1>FATU AMARA</h1>
                 <p><span id="headline"></span></p>
                 <div class="social-links mx-auto mx-lg-0">
                   <div class="row">
                     <div class="col-3">
-                      <a href="mailto:contact@ahmedzougari.com" target="_blank">
+                      <a href="mailto:amarafatue@gmail.com" target="_blank">
                         <i class="bi bi-envelope-fill"></i>
                       </a>
                     </div>
                     <div class="col-3">
                       <a
-                        href="https://www.linkedin.com/in/zougari47/"
+                        href="#"
                         target="_blank"
                       >
                         <i class="bi bi-linkedin"></i>
                       </a>
                     </div>
                     <div class="col-3">
-                      <a href="https://twitter.com/zougari47" target="_blank">
+                      <a href="#" target="_blank">
                         <i class="bi bi-twitter"></i>
                       </a>
                     </div>
@@ -290,15 +290,12 @@
 
               <div class="col-12 col-lg-6 d-grid align-content-center">
                 <section
-
                   class="mb-5 mb-lg-0"
                   data-aos="fade-left"
                   data-aos-duration="1000"
                 >
                   <div class="row ">
-
                     <div id="lottie_container"></div>
-
                     <script>
                       // Initialize the Lottie animation
                       var animation = bodymovin.loadAnimation({
@@ -309,11 +306,9 @@
                         path: './img/lottie/doctor_1.json' // Replace with the path to your Lottie animation JSON file
                       });
                     </script>
-
                   </div>
                 </section>
               </div>
-
 
               <div class="col-12 col-lg-6 d-grid align-content-center">
                 <section
@@ -354,258 +349,152 @@
 
 
         <!-- ==== Portfolio === -->
-        <section id="portfolio" class="">
+        <section id="portfolio" class="education_exprence_div">
           <div class="container">
-            <h1 class="mb-md-5">PROJECTS</h1>
-            <div class="row row-cols-1 row-cols-lg-2 g-3">
-              <div>
-                <div
-                  class="project"
-                  data-aos="flip-up"
-                  data-aos-duration="1000"
-                >
-                  <img
-                    src="./img/portfolio/udemy-monster.jpg"
-                    alt="udemy monster"
-                  />
-                  <div class="details">
-                    <div
-                      class="position-absolute top-50 start-50 translate-middle bg-accen w-100"
-                    >
-                      <p class="text-center">
-                        Website that looks for 100% off Udemy coupons and shares
-                        them.
-                      </p>
-                      <div class="links_project">
-                        <a
-                          href="https://github.com/zougari47/udemy-monster"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          title="source code"
-                        >
-                          <i class="bi bi-github"></i>
-                        </a>
-                        <a
-                          href="https://udemy.monster"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          title="live demo"
-                        >
-                          <i class="bi bi-eye-fill"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="technology">
-                      <div class="row">
-                        <div class="col d-flex justify-content-center">
-                          <img
-                            src="./img/stack-icons/typescript.svg"
-                            alt="typescript"
-                            title="typescript"
-                          />
-                        </div>
-                        <div class="col d-flex justify-content-center">
-                          <img
-                            src="./img/stack-icons/tailwind.svg"
-                            alt="tailwind"
-                            title="tailwind"
-                          />
-                        </div>
-                        <div class="col d-flex justify-content-center">
-                          <img
-                            src="./img/stack-icons/next.svg"
-                            alt="next"
-                            title="next"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+            <h1 class="mb-md-5" data-aos="fade-up">Education & experience</h1>
+            <div class="education_container">
+              <div class="education" data-aos="fade-up">
+              <div class="edication_icon_div">
+                <img src="./img/education.svg" alt="react" class="education_icon"/>
               </div>
-
-              <div>
-                <div
-                  class="project"
-                  data-aos="flip-up"
-                  data-aos-duration="1000"
-                >
-                  <img
-                    src="./img/portfolio/twitter-bot.jpg"
-                    alt="twitter bot"
-                  />
-                  <div class="details">
-                    <div
-                      class="position-absolute top-50 start-50 translate-middle bg-accen w-100"
-                    >
-                      <p class="text-center">
-                        Twitter bot retweet any tweet with hashtag
-                        #100DaysOfCodes
-                      </p>
-                      <div class="links_project">
-                        <a
-                          href="https://github.com/zougari47/twitter-bot"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          title="source code"
-                        >
-                          <i class="bi bi-github"></i>
-                        </a>
-                        <a
-                          href="https://twitter.com/_go47"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          title="live demo"
-                        >
-                          <i class="bi bi-eye-fill"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="technology">
-                      <div class="row">
-                        <div class="col d-flex justify-content-center">
-                          <img
-                            src="./img/stack-icons/node.svg"
-                            alt="node"
-                            title="node js"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div class="edication_text">
+                <h2 class="education_h2"> The City University of New York, College of Staten Island</h2>
+                <h2 class="education_h2">2016 - 2020</h2>
+                <p class="education_p">
+                  Bachelor of Science in Chemistry, Minors – Psychology & Political Science Cum
+                  Laude, Honors in Chemistry
+                </p>
               </div>
-
-              <div>
-                <div
-                  class="project"
-                  data-aos="flip-up"
-                  data-aos-duration="1000"
-                >
-                  <img
-                    src="./img/portfolio/space-tourism.webp"
-                    alt="space tourism"
-                  />
-                  <div class="details">
-                    <div
-                      class="position-absolute top-50 start-50 translate-middle bg-accen w-100"
-                    >
-                      <p class="text-center">
-                        space tourism multi page static website
-                      </p>
-                      <div class="links_project">
-                        <a
-                          href="https://github.com/zougari47/frontendmentor-challenges/tree/main/apps/space-tourism-mutli-page-website"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          title="source code"
-                        >
-                          <i class="bi bi-github"></i>
-                        </a>
-                        <a
-                          href="https://space-tourism.ahmedzougari.com"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          title="live demo"
-                        >
-                          <i class="bi bi-eye-fill"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="technology">
-                      <div class="row">
-                        <div class="col d-flex justify-content-center">
-                          <img
-                            src="./img/stack-icons/astro.svg"
-                            alt="Astro"
-                            title="Astro"
-                          />
-                        </div>
-                        <div class="col d-flex justify-content-center">
-                          <img
-                            src="./img/stack-icons/react.svg"
-                            alt="React"
-                            title="React"
-                          />
-                        </div>
-                        <div class="col d-flex justify-content-center">
-                          <img
-                            src="./img/stack-icons/tailwind.svg"
-                            alt="tailwind CSS"
-                            title="tailwind CSS"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div>
-                <div
-                  class="project"
-                  data-aos="flip-up"
-                  data-aos-duration="1000"
-                >
-                  <img src="./img/portfolio/quiz-app.jpg" alt="quiz app" />
-                  <div class="details">
-                    <div
-                      class="position-absolute top-50 start-50 translate-middle bg-accen w-100"
-                    >
-                      <p class="text-center">Quiz app using Open Trivia API</p>
-                      <div class="links_project">
-                        <a
-                          href="https://github.com/zougari47/quiz-app"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          title="source code"
-                        >
-                          <i class="bi bi-github"></i>
-                        </a>
-                        <a
-                          href="https://quiz-app-zougari47.vercel.app"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          title="live demo"
-                        >
-                          <i class="bi bi-eye-fill"></i>
-                        </a>
-                      </div>
-                    </div>
-                    <div class="technology">
-                      <div class="row">
-                        <div class="col d-flex justify-content-center">
-                          <img
-                            src="./img/stack-icons/next.svg"
-                            alt="next"
-                            title="next js"
-                          />
-                        </div>
-                        <div class="col d-flex justify-content-center">
-                          <img
-                            src="./img/stack-icons/materialui.svg"
-                            alt="material ui"
-                            title="material ui"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
-            <p class="text-center mt-4">
-              <a
-                href="https://github.com/zougari47"
-                target="_blank"
-                class="btn btn-outline-accent btn-lg rounded-pill"
-              >
-                See more <i class="bi bi-github fs-4"></i>
-              </a>
-            </p>
+
+            <div class="container mt-5">
+              <div class="row row-cols-1 row-cols-lg-2 g-3">
+                <div class="col" data-aos="fade-up">
+                  <div class="card">
+                    <div class="card-body p-2">
+                      <h5 class="card-title">PROJECT MANAGER</h5>
+                      <h6 class="card-subtitle mb-2 text-muted mb-3">
+                        New York City Economic Development Cooperation, New York (2022)
+                      </h6>
+                      <p class="card-text">
+                        Provide project management on planning and implementation of the NYCEDC Childcare
+                        Innovation lab activities
+                        <br /> <br />
+                        Plan and coordinate events for the Childcare Innovation Lab industry round tables,
+                        government, and cooperate dialogues.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col" data-aos="fade-up">
+                  <div class="card">
+                    <div class="card-body p-2">
+                      <h5 class="card-title">COORDINATOR</h5>
+                      <h6 class="card-subtitle mb-2 text-muted mb-3">
+                        Administration for Children’s Services, New York (2021-2022)
+                      </h6>
+                      <p class="card-text">
+                        Worked on an equity pilot for children in the NYC Foster Care system.
+                        Scaled the project to other Foster Care Agencies.
+                        <br /> <br />
+                        Communicated with all stakeholders and coordinated meetings for internal and
+                        external stakeholders.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col" data-aos="fade-up">
+                  <div class="card">
+                    <div class="card-body p-2">
+                      <h5 class="card-title">COORDINATOR</h5>
+                      <h6 class="card-subtitle mb-2 text-muted mb-3">
+                        Community Health Action of Staten Island, New York (2020-2021)
+                      </h6>
+                      <p class="card-text">
+                        Recruited, trained, and supervised 80 new pre-health volunteers to support staff at
+                        the CHASI programs.
+                        <br /> <br />
+                        Developed all volunteer policies and materials. Forged new partnerships to strengthen the
+                        CHASI volunteer network.
+                        <br /> <br />
+                        Led a Public Health Field Research to identify DSP (Distant Support Program) families
+                        vulnerable for malaria
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col" data-aos="fade-up">
+                  <div class="card">
+                    <div class="card-body p-2">
+                      <h5 class="card-title">RESEARCHER</h5>
+                      <h6 class="card-subtitle mb-2 text-muted mb-3">
+                        Los Angeles County Department of Public Health, Carlifornia (2021)
+                      </h6>
+                      <p class="card-text">
+                        Attended and scribed weekly focus group meetings between the department, health professionals,
+                        and frontline workers.
+                        <br /> <br />
+                        Curated and managed the health department’s digital library for COVID-19 vaccine equity
+                        information.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col" data-aos="fade-up">
+                  <div class="card">
+                    <div class="card-body p-2">
+                      <h5 class="card-title">RESEARCHER</h5>
+                      <h6 class="card-subtitle mb-2 text-muted mb-3">
+                        Public Health and Early Childhood Development Fellow, AVSI Foundation, Rwanda (2019)
+                      </h6>
+                      <p class="card-text">
+                        Supported with research to secure a grant to address mental health prevention in rural Rwanda
+                        <br /> <br />
+                        Created health education materials and worked closely with staff to translate and distribute
+                        materials to AVSI centers.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col" data-aos="fade-up">
+                  <div class="card">
+                    <div class="card-body p-2">
+                      <h5 class="card-title">RESEARCHER</h5>
+                      <h6 class="card-subtitle mb-2 text-muted mb-3">
+                        University of Oxford, United Kingdom (2020-2021)
+                      </h6>
+                      <p class="card-text">
+                        Worked a research project aiming to strengthen research capacity in health crises and pandemics.
+                        <br /> <br />
+                        Conducted literature reviews, research analysis, and scientific journal publication for the
+                        British Medical Journal.
+                        <br /> <br />
+                        Co-developed a global health workshop with health professionals across seven countries and
+                        co-authored a <span> <a href="https://gh.bmj.com/content/6/11/e006345">publication</a>  </span>  based on findings about mass deaths in crises like SARS, Ebola,
+                        and COVID-19.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <!-- Add more cards as needed -->
+              </div>
+            </div>
+
           </div>
         </section>
         <!-- ==== End Portfolio === -->
+
+
+
+
+
+
 
         <!-- === Contact ====  -->
         <div id="contact">
@@ -618,18 +507,22 @@
                   data-aos="fade-right"
                   data-aos-duration="1000"
                 >
-                  <span>Have an idea ?</span>
-                  <p>Let's make it true!</p>
+                  <!-- <span>Have an idea ?</span> -->
+                  <p>
+                    Thanks for your interest. For more information, advice, or
+                    collaborations feel free to get in touch and I will get back to
+                    you soon!
+                  </p>
 
                   <div class="mt-5 more_info">
                     <p>
                       <i class="bi bi-geo-alt text-accent me-2 fs-5"></i>
-                      Morocco
+                      United State
                     </p>
 
                     <p>
                       <i class="bi bi-envelope-fill text-accent me-2 fs-5"></i>
-                      contact@ahmedzougari.com
+                        amarafatue@gmail.com
                     </p>
                   </div>
                 </div>
@@ -750,25 +643,15 @@
         <div class="container">
           <div class="row row-cols-1 row-cols-lg-2">
             <div>
-              Made with ❤️, By&nbsp;<span class="author"> Ahmed Zougari</span>,
-              Open sourced on&nbsp;
-              <a
-                href="https://github.com/zougari47/portfolio-template"
-                target="_blank"
-                ><i class="bi bi-github"></i
-              ></a>
+              &#169; 2023<span class="author"> Fatu Amara</span>,
             </div>
 
             <div class="text-center text-lg-end">
-              <a href="https://twitter.com/zougari47" target="_blank">
+              <a href="#" target="_blank">
                 <i class="bi bi-twitter"></i>
               </a>
 
-              <a href="https://github.com/zougari47" target="_blank">
-                <i class="bi bi-github"></i>
-              </a>
-
-              <a href="https://linkedin.com/in/zougari47" target="_blank">
+              <a href="#" target="_blank">
                 <i class="bi bi-linkedin"></i>
               </a>
             </div>

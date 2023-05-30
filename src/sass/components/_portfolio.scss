@@ -1,9 +1,78 @@
+.education_exprence_div {
+  margin-top: 20px;
+}
+
 #portfolio {
   margin-bottom: 3rem;
+
+
 
   h1 {
     @include h1;
   }
+
+  .education_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .education {
+    display: flex;
+    width: 80%;
+    height: 190px;
+    border-radius: 10px;
+    background-color: rgb(199, 199, 199);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .edication_icon_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 30%;
+    height: 100%;
+    background-color: rgb(180, 179, 179);
+  }
+
+  .education_icon {
+    width: 80%;
+  }
+
+  .edication_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+  }
+
+  .education_h2 {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+    margin-top: 4px;
+  }
+
+  .education_p {
+    margin-top: 10px;
+  }
+
+  .card {
+    background-color: #ebebeb;
+  }
+
+
+
+
 
   .project {
     position: relative;
