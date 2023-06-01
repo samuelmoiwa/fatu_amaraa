@@ -1,5 +1,5 @@
 // style
-import '../sass/main.scss'
+import '../../sass/main.scss'
 
 // header functions
 import './header'
