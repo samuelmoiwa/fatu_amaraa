@@ -1,6 +1,7 @@
 {
   "name": "@zougari47/portfolio-template",
-  "version": "0.0.0",
+  "version": "0.1.0",
+  "homepage": "https://samuelmoiwa.github.io/fatu_amaraa",
   "description": "🚀 Open source portfolio template for developers 👨‍💻(customizable, responsive 🔥). Fast way to create an awesome portfolio ⚡.Built with HTML, SASS, Bootstrap, and JavaScript✨.",
   "author": "Ahmed Zougari<contact@ahmedzougari.com>",
   "license": "MIT",
@@ -8,10 +9,14 @@
     "dev": "vite src",
     "dev-host": "vite src --host",
     "build": "vite build",
-    "serve": "vite preview"
+    "serve": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "build-css": "node-sass --output-style compressed -o css sass"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
+    "node-sass": "^9.0.0",
     "vite": "^2.9.15"
   },
   "devDependencies": {
@@ -21,6 +26,7 @@
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.3",
     "curtainsjs": "^8.1.4",
+    "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "postcss-discard-comments": "^5.1.2",
     "postcss-load-config": "^3.1.4",
